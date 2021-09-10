@@ -144,7 +144,7 @@ a{
 }
 
 .part5{
-    height: 752px;
+    height: 800px;
     margin-top: -64px;
     font-weight: 1000;
     font-family: 'Montserrat', sans-serif;
@@ -185,7 +185,7 @@ a{
 .eye{
     background-image: url("https://csci571.com/hw/hw3/images/glasses.png");
     width: 1190px;
-    height: 752px;
+    height: 800px;
     background-attachment: fixed;
     -webkit-filter: grayscale(100%);
     opacity: 0.3;
@@ -265,15 +265,14 @@ a{
     padding-bottom: 150px;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    margin-top: -24px;
+    width: 1190px;
+    height: 450px;
 }
 
-.part6-A{
-    position: absolute;
-}
 
 .part6-B{
-    position: relative;top: 161px;
+    position: absolute;
+    margin: -300px 0 0 400px;
 }
 
 .part6-C{
@@ -282,11 +281,15 @@ a{
     height: 450px;
     background-color: rgba(15, 61, 92, 0.8);
     opacity: 1;
+    margin-top: -450px;
 }
 
-.part6-img{
+.part6-A{
     width: 1190px;
     height: 450px;
+    background-size: 100%;
+    background-image: url("https://csci571.com/hw/hw3/images/notebook.jpg");
+    background-position: center;
 }
 
 
@@ -329,10 +332,20 @@ a{
     background-color: #1D2530;
     padding-top: 234px;
     padding-bottom: 50px;
+    margin-top: -150px;
 }
 .text14{
     color:#ccc;
     font-size: 10px;
+}
+.text15{
+    color: #fff;
+    font-weight:bolder;
+    font-size: 24px;
+    line-height: 10px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    margin-top: -150px;
 }
 .img-size{
     width: 32px;
