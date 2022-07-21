@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}
+Model Review
+{% endblock %}
+{% block styleblock %}
+<style>
+</style>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+       <div class="alert alert-default mt-3 mb-3">
+           <select name="" id="" class="form-control">
+               <option value="">Please select a model</option>
+               <option value="">Lieas regression</option>
+               <option value="">Gradient Boosting Regressor</option>
+               <option value="">Radom Forest Regressor</option>
+               <option value="">XGBoost</option>
+               <option value="">Deep neural network</option>
+           </select>
+       </div>
+       <div class="alert alert-default">
+           <div class="border bg-white p-3">Show model results</div>
+       </div>
+    </div>
+{% endblock %}

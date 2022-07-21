@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      {% block title %}{% endblock %}
+    </title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='plugins/bootstrap4/bootstrap4.min.css') }}"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='iconfont/iconfont.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/app.css') }}"
+    />
+    {% block styleblock %} {% endblock %}
+  </head>
+  <body>
+   {% include 'header.html' %}
+   {% block content %}{% endblock %} 
+  </body>
+  <!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script> -->
+  <script src="{{ url_for('static', filename='js/jquery-3.5.0.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/bootstrap4/bootstrap4.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/request.js') }}"></script>
+  {% block scriptblock %} {% endblock %}
+</html>

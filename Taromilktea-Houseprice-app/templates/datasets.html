@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}
+Dataset Review
+{% endblock %}
+{% block styleblock %}
+<style>
+</style>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+       <div class="alert alert-default mt-3 mb-3">
+           <select name="" id="" class="form-control">
+               <option value="">Please select a dataset</option>
+               <option value="">House price</option>
+               <option value="">Water quality</option>
+               <option value="">Air quality</option>
+               <option value="">Oil wells</option>
+               <option value="">Wildfire</option>
+           </select>
+       </div>
+       <div class="alert alert-default">
+            <div class="row">
+                <div class="col-md-6">
+                    <select name="" id="" class="form-control">
+                        <option value="">select county</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <select name="" id="" class="form-control">
+                        <option value="">select years</option>
+                    </select>
+                </div>
+            </div>
+       </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,139 @@
+* {
+  outline: 0;
+}
+button:focus,
+button:active,
+button:hover {
+  outline: 0;
+  border: 0;
+}
+body {
+  background-color: #efecf4 !important;
+}
+.primary-bg-color {
+  background-color: purple !important;
+}
+.success-bg-color {
+  background-color: #69c4ae;
+}
+.primary-color {
+  color: #101010 !important;
+}
+.white-color {
+  color: #fff !important;
+}
+.success-color {
+  color: #69c4ae !important;
+}
+.underline-2 {
+  border-bottom: 2px solid #101010 !important;
+}
+.no-radius {
+  border-radius: 0 !important;
+}
+.pmargin-vertical-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/** html element **/
+img {
+  width: 100% !important;
+  height: 100% !important;
+}
+/** html element end **/
+.line-throgh {
+  text-decoration: line-through !important;
+}
+.lbtn {
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  opacity: 0.8;
+  background-color: #101010 !important;
+  color: #fff !important;
+}
+.lbtn-danger {
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  opacity: 0.8;
+  background-color: #d9534f !important;
+  color: #fff !important;
+}
+.lbtn-success {
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  opacity: 0.8;
+  background-color: #69c4ae !important;
+  color: #fff !important;
+}
+.lbtn:hover,
+.lbtn-danger:hover,
+.lbtn-success:hover {
+  opacity: 1;
+  transition: 0.8 ease-in-out;
+  color: #fff;
+}
+.lbtn:active {
+  outline: 0 !important;
+  border: 0 !important;
+}
+.lbtn:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+.hover-border:hover {
+  border: 1px dashed #101010 !important;
+}
+.list-item-active {
+  background-color: #101010 !important;
+  color: #fff !important;
+}
+.breadcrumb-item-font-size {
+  font-size: 1rem !important;
+}
+.link-white {
+  font-size: 0.4em;
+  color: #fff !important;
+}
+.link-white:hover {
+  color: tomato !important;
+  text-decoration: none;
+}
+.link {
+  font-size: 0.4em;
+  color: #101010 !important;
+}
+.link:hover {
+  color: tomato !important;
+  text-decoration: none;
+}
+.field-label {
+  color: #101010;
+  font-size: 1.5vw;
+}
+/**
+* index page css
+**/
+.scard {
+  background-color: #fff;
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  margin-bottom: 0.625rem;
+}
+.scard-title {
+  color: #101010;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.scard-title a {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #101010;
+}
+/*** good category ****/
+.category-item {
+  padding-left: 2em;
+}
